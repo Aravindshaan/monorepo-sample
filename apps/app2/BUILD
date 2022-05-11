@@ -8,4 +8,4 @@ java_binary(
     deps = ["//libs/lib2"],
     main_class="no.monorepo.app2.App2"
 )
-)
+
