@@ -18,4 +18,3 @@ public class App2Test
         assertTrue( true );
     }
 }
-
