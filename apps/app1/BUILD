@@ -1,4 +1,4 @@
-package(default_visibility = ["//visibility:public"])
+packa(default_visibility = ["//visibility:public"])
 
 sources()
 
