@@ -9,6 +9,7 @@ on:
     paths:
       - 'apps/app1/**'
       - '!apps/app2/**'
+      - 'libs/lib1/**'
   pull_request:
     branches: [ master ]
 
