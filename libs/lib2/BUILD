@@ -10,7 +10,7 @@ java_library(
     deps = ["@maven//:org_apache_commons_commons_lang3"],
 )
 
-java_test(
+java_test
     name = "AllTests",
     size = "small",
     srcs = [":src_test"],
