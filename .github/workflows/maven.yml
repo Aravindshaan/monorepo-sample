@@ -8,9 +8,9 @@ on:
     branches: [ master ]
     paths:
       - 'apps/app1/**'
-      - '!apps/app2/**'
-      - '!libs/lib1/**'
-      - '!libs/lib2/**'
+      - 'apps/app2/**'
+      - 'libs/lib1/**'
+      - 'libs/lib2/**'
   pull_request:
     branches: [ master ]
 
