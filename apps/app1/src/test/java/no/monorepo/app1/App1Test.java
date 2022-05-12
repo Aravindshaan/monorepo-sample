@@ -1,4 +1,4 @@
-package no.monorepo.app1;
+package no.monorepo.ap;
 
 import static org.junit.Assert.assertTrue;
 
