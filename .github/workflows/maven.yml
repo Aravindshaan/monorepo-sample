@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'apps/app1/**'
+      - 'apps/**'
       - 'apps/app2/**'
       - 'libs/lib1/**'
       - 'libs/lib2/**'
