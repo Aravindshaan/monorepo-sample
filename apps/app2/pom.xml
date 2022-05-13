@@ -15,7 +15,7 @@
     <packaging>jar</packaging>
 
 
-    <bud>
+    <build>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
