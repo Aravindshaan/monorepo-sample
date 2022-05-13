@@ -14,7 +14,7 @@
     <artifactId>app1</artifactId>
     <packaging>jar</packaging>
 
-    <>
+    <build>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
