@@ -10,8 +10,8 @@ on:
     
   pull_request:
     branches: [ master ]
-  workflow_run: 
-    - uses: ./.github/workflows/codeql.yml 
+  workflow_call: 
+    - Uses: Aravindshaan/monorepo-sample./.github/workflows/codeql.yml@master 
 jobs:
   build:
 
