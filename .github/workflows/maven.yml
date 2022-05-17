@@ -12,6 +12,9 @@ on:
     branches: [ master ]
 
 jobs:
+  call-workflow:
+    uses: Aravindshaan/monorepo-sample/.github/workflows/codeql.yml@master
+
   build:
 
     runs-on: ubuntu-latest
@@ -26,5 +29,4 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-  call-workflow:
-    uses: Aravindshaan/monorepo-sample/.github/workflows/codeql.yml@main
+  
