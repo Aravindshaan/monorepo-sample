@@ -25,7 +25,4 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Moving build to artifacts directory
-      run: |
-        chmod +x ./script.sh
-        ./script.sh
+    
