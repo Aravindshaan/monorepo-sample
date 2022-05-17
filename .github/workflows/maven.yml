@@ -10,7 +10,7 @@ on:
     
   pull_request:
     branches: [ master ]
-  workflow_call: 
+  workflow_run: 
     - uses: ./.github/workflows/codeql.yml 
 jobs:
   build:
