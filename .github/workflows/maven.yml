@@ -4,14 +4,14 @@
 name: Java CI with Maven
 
 on:
-  workflow_call: 
-     - uses: ./github/workflows/codeql.yml 
+  
   push:
     branches: [ master ]
     
   pull_request:
     branches: [ master ]
-
+  workflow-call: 
+    - uses: ./.github/workflows/codeql.yml 
 jobs:
   build:
 
